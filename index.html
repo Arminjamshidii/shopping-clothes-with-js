@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500;600;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;1,100;1,300&family=Rubik:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="discript-title">
+            <p>
+                Trendy is a fashion website that provides the latest trends in clothing and accessories
+            </p>
+            <i class="fa-solid fa-xmark discript-title-icon" style="color: #dddfbd;"></i>
+
+
+
+
+            
+        </div>
+        <div class="navbar">
+            <h1>TRENDY</h1>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>Sales</li>
+                    <li>Coustom</li>
+                </ul>
+            </nav>
+            <div class="nav-button">
+                <button class="login-button"><img src="./image/icons/personal.svg" alt=""></button>
+                <button class="shopping-cart cart-btn" data-id=${item.id}><img
+                        src="./image/icons/shoping card white.svg" alt="icon"><span class="count">0</span></button>
+            </div>
+        </div>
+
+        </div>
+    </header>
+    <div class="banner">
+        <img src="./image/banner.jpg" alt="banner">
+        <div>
+            <h1 class="trendy">TRENDY</h1>
+            <h1 class="fashionable-text">BE FASHINABLE</h1>
+            <h1 class="classic-text"> AND CLASSIC</h1>
+        </div>
+
+
+    </div>
+    <section class="discript">
+        <div class="money"><span><img src="./image/icons/frame.png" alt="money"></span>
+            <h1>BEST PRICE AND DISCOUNT</h1>
+            <p>A discount is a reduction in the price
+                of theproduct or service .
+                Discounts are often used
+                as a marketing strategy
+                to attract costomers and increase
+                sales.we do this with every purchase
+
+            </p>
+        </div>
+        <div class="delivery"><span><img src="./image/icons/vuesax-outline-truck-fast.png" alt="delivery"></span>
+            <h1>FAST AND SAFE DELIVERY</h1>
+            <p>fast shipping is the process of sending goods
+                or documents
+                in a relatively short time compared to regular shipping
+                our Delivery service
+                always uses the fastest and safest</p>
+
+        </div>
+        <div class="like"><span><img src="./image/icons/vuesax-outline-like.png" alt="like"></span>
+            <h1>BEST PRICE AND DISCOUNT</h1>
+            <p>A discount is a reduction in the price
+                of theproduct or service .
+                Discounts are often used
+                as a marketing strategy
+                to attract costomers and increase
+                sales.we do this with every purchase
+
+            </p>
+        </div>
+    </section>
+
+    <section class="curved">
+        <img src="./image/happy shoping.png" alt="">
+        <div class="offbanner">
+            <h1 class="text-discount"><span>30%</span> discount for one week.</h1>
+            <h1 class="timer"></h1>
+            <h2></h2>
+
+        </div>
+    </section>
+    <section class="papular-prodacts-text">
+        <h1>POPULAR <span style="color: #613DC1;">PRODUCTS </span> </h1>
+        <p>here are our popular and special products .monochrome and minimalist
+            series are the best</p>
+    </section>
+    <div class="popular-products">
+    </div>
+    <!-- cart-item -->
+    <section class="cart-center">
+        <div class="backdrop"></div>
+        <div class="cart">
+            <div class="cart-header">
+                <h2 class="cart-title">your order</h2>
+                <i class="fa-solid fa-xmark fa-2xl cart-item-close"></i>
+            </div>
+            <div class="cart-content">
+                <!-- <div class="cart-item">
+                    <div class="cart-item-discription">
+                        <h4>product title</h4>
+                        <h5>12</h5>
+                    </div>
+                    <img class="cart-item-img" src="./image/jew2.jpg" alt="order">
+                    <div class="cart-item-controller">
+                        <i class="fa-solid fa-chevron-up"></i>
+                        <p>1</p>
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </div>
+                 
+                </div> -->
+            </div>
+            <div class="cart-footer">
+                <span class="  cart-totoal">total price :0$</span>
+                <button class="btn clear-cart">clear cart</button>
+                <button class="btn cart-item-confirm">confirm</button>
+
+            </div>
+        </div>
+
+    </section>
+
+    <script type="module" src="./App.js"></script>
+</body>
+
+</html>
